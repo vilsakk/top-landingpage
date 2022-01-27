@@ -1,0 +1,234 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.logo {
+    display: inline-block;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.navbutton {
+    background-color: #1F2937;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #1F2937;
+    border-style: solid;
+    padding: 5px 15px;
+    color: #e5e7eb;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin: 0px 5px;
+}
+
+.nav {
+    flex: 3 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbutton:hover {
+    background-color: #2b3849;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    transition: 0.6s;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background-color: #1F2937;
+    text-align: left;
+    align-items: center;
+    padding: 7rem 5rem;
+    flex: 2 2 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.mainside {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.kuva {
+    flex: 2 2 0;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 7rem 5rem;
+}
+
+.signUp {
+    background-color: #3882F6;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px 25px;
+    color: #e5e7eb;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-right: 5rem;
+}
+
+.signUp:hover {
+    background-color: #4d8ef7;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    transition: 0.6s;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.info h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2 {
+    color: #1f2937;
+    font-weight: 400;
+    text-align: center;
+}
+
+.item {
+    align-items: center;
+    justify-content: center;
+}
+
+.item img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    margin: 0px 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 15px gray;
+}
+
+.quote {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    background-color: #e5e7eb;
+    flex: 2 2 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.signUpBox {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    flex: 2 2 0;
+    border-radius: 0.5rem;
+    margin: 5rem;
+    color: white;
+    height: 7rem;
+}
+
+.signUpBox-container {
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 4 2 0;
+    padding: 0rem 5rem;
+
+}
+
+.signUpBox h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.signUpSide {
+    background-color: white;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+@media all and (min-width: 600px) {
+    .mainside { flex: 1 0 0; }
+  }
+
